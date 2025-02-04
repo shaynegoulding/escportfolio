@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
-body {
-	margin: 0 auto;
-}
+
 .homePage {
 	background: #222222;
 }
@@ -44,3 +42,20 @@ body {
 	height: 50px;
 	text-align: center;
 }
+body {
+     font: 100%/1.4 New Century Schoolbook, TeX Gyre Schola, serif
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #000;
+}
+
+a:link {
+     color: ##1E3364;
+}
+a:visited {
+     color: ##1E3364;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+} 
